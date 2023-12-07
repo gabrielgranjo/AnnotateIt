@@ -7,15 +7,23 @@ AnnotateIt is a simple and user-friendly R package designed to streamline the pr
 ## Installation
 
 ### Install devtools if you haven't already
+
+```R
 if (!requireNamespace("devtools", quietly = TRUE)) {
     install.packages("devtools")
 }
+```
 
 ### Install AnnotateIt from GitHub
+
+```R
 devtools::install_github("gabrielgranjo/AnnotateIt")
+```
 
 ## Usage
 
 After installation, you can load AnnotateIt as follows:
 
+```R
 library(AnnotateIt)
+```
