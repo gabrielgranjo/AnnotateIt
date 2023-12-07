@@ -1,0 +1,15 @@
+Package: AnnotateIt
+Type: Package
+Title: AnnotateIt: a simple and user-friendly R package designed to streamline the process of text data annotation for classification tasks
+Version: 0.1
+Date: 2023-12-07
+Author: Gabriel Cantharino Granjo [aut, cre]
+Maintainer: Gabriel Cantharino Granjo <gabriel.granjo@fgv.br>
+Description: AnnotateIt is a simple and user-friendly R package designed to streamline the process of text data annotation for classification tasks. This package leverages the power of Shiny, a web application framework for R, to create an interactive annotation environment, ideal for projects that require accurate human-labeled text data for training machine learning models. The package is also helpful in boosting the productivity of small groups in annotation tasks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.2.1
+Imports:
+  shiny,
+  shinythemes,
+  htmltools
